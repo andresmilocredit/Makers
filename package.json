@@ -1,0 +1,30 @@
+{
+  "name": "cypress-e2e-framework",
+  "version": "1.0.0",
+  "description": "E2E Framework Testing Cypress",
+  "keywords": [
+    "e2e",
+    "automatization",
+    "framework",
+    "cypress"
+  ],
+  "homepage": "https://github.com/andresmilocredit/Makers#readme",
+  "bugs": {
+    "url": "https://github.com/andresmilocredit/Makers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresmilocredit/Makers.git"
+  },
+  "license": "ISC",
+  "author": "andreszuniga",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "test", 
+    "cy:open": "cypress open"
+  },
+  "devDependencies": {
+    "cypress": "^15.11.0"
+  }
+}
